@@ -2,8 +2,9 @@
 """
 Created on Mon Aug  5 11:16:03 2019
 
-This script calculate the kinematics of the serial configuration based on the D-H convention
-
+This script calculate the kinematics of the serial configuration based on the D-H convention.
+It contains the example from 1 joint to 3 joints.
+The configuration of each joint and link will be displayed in the visualization plot.
 
 @author: jschang
 """
@@ -112,13 +113,6 @@ y = np.array([p1.item(1), p2.item(1), p3.item(1), ef.item(1)])
 plt.plot(x, y, 'o') #plot the joint and end-effector
 plt.plot(x, y,'r') #plot the link
 plt.title('Three joints chain kinematic visualization')
-
-
-
-
-
-
-
 
 
 
