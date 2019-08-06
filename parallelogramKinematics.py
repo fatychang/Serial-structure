@@ -98,6 +98,8 @@ import matplotlib.pyplot as plt
 # Input
 input_theta1 = 2* np.pi/3
 input_theta2 = np.pi/3
+#input_theta1 = np.pi/2
+#input_theta2 = 0
 
 
 # Constraints for close-loop chain based on this configuration
@@ -163,8 +165,6 @@ x = np.array([p1.item(0), p2.item(0), p3.item(0), ef.item(0)])
 y = np.array([p1.item(1), p2.item(1), p3.item(1), ef.item(1)])
 x2 = np.array([p1.item(0), p4.item(0), p3.item(0)])
 y2 = np.array([p1.item(1), p4.item(1), p3.item(1)])
-#x = np.array([p1.item(0), p2.item(0), p3.item(0), p4.item(0), ef.item(0)])
-#y = np.array([p1.item(1), p2.item(1), p3.item(1), p4.item(1), ef.item(1)])
 plt.plot(x, y, 'o') #plot the joint and end-effector
 plt.plot(x, y,'r') #plot the link
 plt.plot(x2, y2, 'b') #plot the joint and end-effector
