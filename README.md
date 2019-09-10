@@ -7,7 +7,13 @@ It contains the example from 1 joint to 3 joints.
 The configuration of each joint and link will be displayed in the visualization plot.
 
 ## Parallogram close lope chain
+@brief this script calculates the forwrad kinematic of a parallelgram close-loop model.
+ There will be two configuartion used in this script.
+ The first configuration has the cut-off point at the last joint (joint4)
+ The second configuration has the cut-off point at the third joint counted from either direction.
 
+
+@author: jschang
 
 
 
